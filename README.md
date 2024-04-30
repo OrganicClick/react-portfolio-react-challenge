@@ -105,6 +105,7 @@ Express.js
 Development was assisted by the following resources:
  - Xpert Learning Assistant provided by the GWU Coding Boot Camp. Provided general guidance and assistance with Installation
    instructions and Usage instructions
+ - Coolors used to create visually-interesting and professional color scheme for application (https://coolors.co/)
 
 ## Contact
 To contact the owner of this repo, OrganicClick, please reach out via OrganicClick@exampleemail.com
