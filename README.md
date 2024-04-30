@@ -106,6 +106,7 @@ Development was assisted by the following resources:
  - Xpert Learning Assistant provided by the GWU Coding Boot Camp. Provided general guidance and assistance with Installation
    instructions and Usage instructions
  - Coolors used to create visually-interesting and professional color scheme for application (https://coolors.co/)
+ - Referenced GWU Coding Boot Camp Module 20 - React section of materials and activities for initial file architecture and technologies to use (https://git.bootcampcontent.com/George-Washington-University/GWU-VIRT-FSF-PT-11-2023-U-LOLC/-/tree/main/20-React/01-Activities/28-Stu_Mini-Project?ref_type=heads)
 
 ## Contact
 To contact the owner of this repo, OrganicClick, please reach out via OrganicClick@exampleemail.com
