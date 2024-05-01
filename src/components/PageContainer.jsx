@@ -25,4 +25,7 @@ const PageContainer = () => {
             return null;
     }
   };
-}
+};
+
+  // Function to handle page change
+  const handlePageChange = (page) => setCurrentPage(page);

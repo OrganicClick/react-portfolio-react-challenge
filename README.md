@@ -105,6 +105,7 @@ Development was assisted by the following resources:
  - Source of repositories to projects linked in this portfolio (https://github.com/OrganicClick?tab=repositories)
  - Mock-up in GWU Coding Boot Camp Module 20 Assignment Guidelines referenced for pages and components to create (https://bootcampspot.instructure.com/courses/4644/assignments/65718?module_item_id=1128217)
  - Referenced for creation of a "container file" to present each component/page (https://www.freecodecamp.org/news/separation-of-concerns-react-container-and-presentational-components/)
+ - Referenced for how to change pages within React application (https://stackoverflow.com/questions/49649767/reactjs-how-do-you-switch-between-pages-in-react)
 
 ## Contact
 To contact the owner of this repo, OrganicClick, please reach out via OrganicClick@exampleemail.com
