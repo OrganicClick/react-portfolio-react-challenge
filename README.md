@@ -101,6 +101,8 @@ Development was assisted by the following resources:
    instructions and Usage instructions, and starting point for application description
  - Coolors used to create visually-interesting and professional color scheme for application (https://coolors.co/)
  - Referenced GWU Coding Boot Camp Module 20 - React section of materials and activities for initial file architecture and technologies to use (https://git.bootcampcontent.com/George-Washington-University/GWU-VIRT-FSF-PT-11-2023-U-LOLC/-/tree/main/20-React/01-Activities/28-Stu_Mini-Project?ref_type=heads)
+ - Documentation referenced for use of React components and props (https://legacy.reactjs.org/docs/components-and-props.html)
+ - Source of repositories to projects linked in this portfolio (https://github.com/OrganicClick?tab=repositories)
 
 ## Contact
 To contact the owner of this repo, OrganicClick, please reach out via OrganicClick@exampleemail.com
