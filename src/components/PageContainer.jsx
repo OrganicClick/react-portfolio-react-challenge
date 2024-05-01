@@ -1,10 +1,12 @@
 // Import useState from 'react' and necessary components from their relative locations
 import { useState } from 'react';
-import NavBar from './Navbar';
+import Navbar from './Navbar';
 import About from './pages/About';
 import Contact from './pages/Contact';
 import Portfolio from './pages/Portfolio';
 import Resume from './pages/Resume';
+import Footer from './Footer'; // Import Footer component
+
 
 const PageContainer = () => {
     // Create a useState variable to hold the current page and set the default page to 'Portfolio'
@@ -32,8 +34,9 @@ const PageContainer = () => {
     // Return the navbar and the page content
     return (
         <div>
-            <NavBar currentPage={currentPage} handlePageChange={handlePageChange}/>
+            <Navbar currentPage={currentPage} handlePageChange={handlePageChange}/>
             {renderPage()}
+            <Footer />
         </div>
     );
 };
