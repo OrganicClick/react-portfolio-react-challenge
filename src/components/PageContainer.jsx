@@ -10,5 +10,19 @@ import Resume from './pages/Resume';
 const PageContainer = () => {
     // Create a useState variable to hold the current page and set the default page to 'Portfolio'
     const [currentPage, setCurrentPage] = useState('Portfolio');
-
+      // Function to render the current page based on state
+     const renderPage = () => {
+        switch (currentPage) {
+        case 'About':
+            return <About />;
+        case 'Contact':
+            return <Contact />;
+        case 'Portfolio':
+            return <Portfolio />;
+        case 'Resume':
+            return <Resume />;
+        default:
+            return null;
+    }
+  };
 }
