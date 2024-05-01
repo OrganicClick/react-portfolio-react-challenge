@@ -1,26 +1,5 @@
 # react-portfolio-react-challenge
 
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## Table of Contents
 - [Description](#description)
 - [User Story](#user-story)
@@ -35,7 +14,7 @@ Currently, two official plugins are available:
 - [Contact](#contact)
 
 ## Description
-
+This assignment involves creating a React portfolio using Vite as the build tool. The portfolio will showcase a collection of projects with images, titles, links to deployed applications, and corresponding GitHub repositories, utilizing React components for efficient rendering and fast hot module replacement (HMR). It includes ESLint for code quality checks and maintains a clear folder structure for easy navigation and scalability.
 
 ## User Story
 AS AN employer looking for candidates with experience building single-page applications
@@ -125,7 +104,7 @@ Express.js
 ## Credits
 Development was assisted by the following resources:
  - Xpert Learning Assistant provided by the GWU Coding Boot Camp. Provided general guidance and assistance with Installation
-   instructions and Usage instructions
+   instructions and Usage instructions, and starting point for application description
  - Coolors used to create visually-interesting and professional color scheme for application (https://coolors.co/)
  - Referenced GWU Coding Boot Camp Module 20 - React section of materials and activities for initial file architecture and technologies to use (https://git.bootcampcontent.com/George-Washington-University/GWU-VIRT-FSF-PT-11-2023-U-LOLC/-/tree/main/20-React/01-Activities/28-Stu_Mini-Project?ref_type=heads)
 
