@@ -87,19 +87,13 @@ Please click the following link to view a video walkthrough of how to use the ap
 
 
 ## Technologies Used
-MongoDB
+React
 
-Mongoose ODM
-
-Dotenv package
+CSS
 
 JavaScript
 
 Git/GitHub
-
-Insomnia
-
-Express.js
 
 ## Credits
 Development was assisted by the following resources:
