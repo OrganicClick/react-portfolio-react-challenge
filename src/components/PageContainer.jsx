@@ -29,3 +29,10 @@ const PageContainer = () => {
 
   // Function to handle page change
   const handlePageChange = (page) => setCurrentPage(page);
+
+  // Return the navbar and the page content
+  return (
+    <div>
+         <NavBar currentPage={currentPage} handlePageChange={handlePageChange}/>
+    </div>
+  );
