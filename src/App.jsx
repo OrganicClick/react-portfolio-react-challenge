@@ -1,16 +1,13 @@
-import React from 'react';
-import PageContainer from './components/PageContainer';
+import React, { useState } from 'react';
+import PortfolioContainer from './components/PortfolioContainer';
 import './App.css';
 
-function App() {
-    // Define a state variable 'count' and a function 'setCount' to update it
-  const [count, setCount] = useState(0)
-
+const App = () => {
   return (
-    <div className="app-container">
-      <PageContainer />
+    <div className="App">
+      <PortfolioContainer />
     </div>
-  )
-}
+  );
+};
 
 export default App;
