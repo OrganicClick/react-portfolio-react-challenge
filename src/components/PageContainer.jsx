@@ -9,8 +9,8 @@ import Footer from './Footer'; // Import Footer component
 
 
 const PageContainer = () => {
-    // Create a useState variable to hold the current page and set the default page to 'Portfolio'
-    const [currentPage, setCurrentPage] = useState('Portfolio');
+    // Create a useState variable to hold the current page and set the default page to 'About'
+    const [currentPage, setCurrentPage] = useState('About'); // Updated default page to 'About'
 
     // Function to render the current page based on state
     const renderPage = () => {
