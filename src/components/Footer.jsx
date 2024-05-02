@@ -9,6 +9,7 @@ const Footer = () => {
                     <ul>
                         <li><a href="https://github.com/OrganicClick?tab=repositories">GitHub</a></li>
                         <li><a href="https://www.linkedin.com/in/austin-luper-a99750141/">LinkedIn</a></li>
+                        <li><a href="https://stackoverflow.com/users/24842190/austin-luper">Stack Overflow</a></li>
                     </ul>
                 </nav>
             </div>
