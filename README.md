@@ -107,6 +107,7 @@ Development was assisted by the following resources:
  - Referenced for creation of a "container file" to present each component/page (https://www.freecodecamp.org/news/separation-of-concerns-react-container-and-presentational-components/)
  - Referenced for how to change pages within React application (https://stackoverflow.com/questions/49649767/reactjs-how-do-you-switch-between-pages-in-react)
  - Referenced for how to keep a clicked navigation button highlighted (https://www.sitepoint.com/community/t/how-do-i-keep-a-clicked-navigation-button-highlighted/104751)
+ - Referenced my own gist for implementing regex for determining what is a valid email address (https://gist.github.com/OrganicClick/28d61520a28a6f26997e042445f4dd77)
 
 ## Contact
 To contact the owner of this repo, OrganicClick, please reach out via OrganicClick@exampleemail.com
