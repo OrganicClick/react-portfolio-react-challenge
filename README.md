@@ -111,6 +111,7 @@ Development was assisted by the following resources:
  - Post referenced for creating a Contact form for a React application (https://medium.com/@thomasaugot/create-a-react-contact-form-with-email-js-cad2c8606f33)
  - Referenced Final Group Project, which I contributed to, for file architecture, hooks, functions, and styling used (https://github.com/yaserhdev/get-fit)
  - Referenced for customizing server logic in vite config file (https://vitejs.dev/config/server-options)
+ - Referenced this documentation for use of onBlur in React application (https://www.geeksforgeeks.org/react-onblur-event/)
 
 ## Contact
 To contact the owner of this repo, OrganicClick, please reach out via OrganicClick@exampleemail.com

@@ -44,6 +44,31 @@ const Contact = () => {
         }
     };
 
+    // Function to handle onBlur event for form fields
+    const handleBlur = (field) => {
+        switch (field) {
+            case 'name':
+                if (!name.trim()) {
+                    setNameError('Name is required');
+                }
+                break;
+            case 'email':
+                if (!email.trim()) {
+                    setEmailError('Email is required');
+                } else if (!emailRegex.test(email)) {
+                    setEmailError('Invalid email address');
+                }
+                break;
+            case 'message':
+                if (!message.trim()) {
+                    setMessageError('Message is required');
+                }
+                break;
+            default:
+                break;
+        }
+    };
+
     return (
         <div className='contact-container'>
             <h1 className='contact-title'>Contact</h1>
@@ -57,6 +82,7 @@ const Contact = () => {
                             id='name'
                             value={name}
                             onChange={(e) => setName(e.target.value)}
+                            onBlur={() => handleBlur('name')}
                         />
                         {nameError && <p className='error'>{nameError}</p>}
                     </div>
@@ -67,6 +93,7 @@ const Contact = () => {
                             id='email'
                             value={email}
                             onChange={(e) => setEmail(e.target.value)}
+                            onBlur={() => handleBlur('email')}
                         />
                         {emailError && <p className='error'>{emailError}</p>}
                     </div>
@@ -76,6 +103,7 @@ const Contact = () => {
                             id='message'
                             value={message}
                             onChange={(e) => setMessage(e.target.value)}
+                            onBlur={() => handleBlur('message')}
                         ></textarea>
                         {messageError && <p className='error'>{messageError}</p>}
                     </div>
