@@ -10,9 +10,9 @@ const Portfolio = () => {
         <div className="portfolio-grid">
           {/* Application 1 */}
           <div className="portfolio-item">
-          <img src="src/assets/Module-10-Screenshot.png" alt="Object-oriented Programming Challenge" className="app-image" />
+          <img src="src/assets/Module-10-Screenshot.png" alt="SVG Generator Application" className="app-image" />
             <div className="app-details">
-              <h3 className="app-title">Object-oriented Programming Challenge</h3>
+              <h3 className="app-title">SVG Generator Application</h3>
               <p className="app-description">An Object-oriented programming, back-end application that generates SVG logos.</p>
               {/* Links to deployed application and GitHub repository */}
               <div className="app-links">
@@ -45,7 +45,7 @@ const Portfolio = () => {
               <p className="app-description">The Employee Tracker allows users to manage a company's employee database by performing various operations such as viewing employees, roles, and departments, adding new employees, updating employee roles, and deleting employees.</p>
               {/* Links to deployed application and GitHub repository */}
               <div className="app-links">
-                
+
                 <a href="https://github.com/OrganicClick/employee-tracker-sql-challenge" target="_blank" rel="noopener noreferrer" className="app-link">GitHub Repo</a>
               </div>
             </div>
