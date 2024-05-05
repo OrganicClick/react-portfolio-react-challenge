@@ -1,6 +1,6 @@
 import React from 'react';
-import '../../App.css'; // Import your App.css file
-import profilePicture from '../../assets/profile-picture.jpg';
+import '../App.css'; // Import your App.css file from the src directory
+import profilePicture from '../assets/profile-picture.jpg'; // Update the import path to access the assets directory directly
 
 const About = () => {
     return (
