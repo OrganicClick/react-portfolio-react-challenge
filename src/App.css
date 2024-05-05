@@ -41,14 +41,29 @@ body {
 
 /* About page styles */
 .about-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
   text-align: center;
-  margin-top: 50px; /* Adjust this margin as needed */
+  margin-top: 20px; /* Adjusted margin to move content higher up */
 }
 
 .profile-img {
-  width: 200px; /* Adjust as needed */
-  height: auto; /* Maintain aspect ratio */
-  border-radius: 50%; /* Make it round */
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.about-title {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.about-bio {
+  font-size: 1.2rem;
+  line-height: 1.6;
 }
 
 /* Footer styling */
