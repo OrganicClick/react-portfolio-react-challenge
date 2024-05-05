@@ -2,7 +2,7 @@ import React from 'react';
 
 const Navbar = ({ currentPage, handlePageChange }) => {
   return (
-    <nav>
+    <nav className="navbar">
       <ul>
         <li className={currentPage === 'About' ? 'active' : ''} onClick={() => handlePageChange('About')}>
           About Me
