@@ -7,7 +7,7 @@
 
 /* Global styles */
 body {
-  font-family: Arial, sans-serif;
+  font-family: Arial, sans-serif; /* Apply font style to all elements */
   background-color: #F5F3F5; /* Background color */
   color: #333; /* Text color */
 }
@@ -85,6 +85,8 @@ body {
   background-color: #023C40; /* Navbar background color */
   color: #F5F3F5; /* Navbar text color */
   z-index: 1000; /* Ensure Navbar appears above other content */
+  display: flex; /* Use flexbox for layout */
+  justify-content: center; /* Align items horizontally to the center */
 }
 
 .navbar ul {
@@ -92,10 +94,12 @@ body {
   margin: 0;
   padding: 0;
   overflow: hidden;
+  display: flex; /* Use flexbox for layout */
+  justify-content: center; /* Align items horizontally to the center */
 }
 
 .navbar li {
-  float: left;
+  margin-right: 20px; /* Add margin-right to create space between links */
 }
 
 .navbar li a {
