@@ -10,14 +10,14 @@ const Portfolio = () => {
         <div className="portfolio-grid">
           {/* Application 1 */}
           <div className="portfolio-item">
-            <img src="/path/to/app1.png" alt="Application 1" className="app-image" />
+          <img src="src/assets/Module-10-Screenshot.png" alt="Object-oriented Programming Challenge" className="app-image" />
             <div className="app-details">
-              <h3 className="app-title">Application 1</h3>
-              <p className="app-description">Description of Application 1</p>
+              <h3 className="app-title">Object-oriented Programming Challenge</h3>
+              <p className="app-description">An Object-oriented programming, back-end application that generates SVG logos.</p>
               {/* Links to deployed application and GitHub repository */}
               <div className="app-links">
                 <a href="https://example.com/app1" target="_blank" rel="noopener noreferrer" className="app-link">Visit App</a>
-                <a href="https://github.com/user/app1" target="_blank" rel="noopener noreferrer" className="app-link">GitHub Repo</a>
+                <a href="https://github.com/OrganicClick/Object-oriented-Programming-Challenge-Luper" target="_blank" rel="noopener noreferrer" className="app-link">GitHub Repo</a>
               </div>
             </div>
           </div>
