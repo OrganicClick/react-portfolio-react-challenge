@@ -67,19 +67,20 @@ const Portfolio = () => {
           </div>
 
 
-          {/* Application 5 */}
-          <div className="portfolio-item">
-            <img src="/path/to/app5.png" alt="Application 5" className="app-image" />
-            <div className="app-details">
-              <h3 className="app-title">Application 5</h3>
-              <p className="app-description">Description of Application 5</p>
-              {/* Links to deployed application and GitHub repository */}
-              <div className="app-links">
-                <a href="https://example.com/app5" target="_blank" rel="noopener noreferrer" className="app-link">Visit App</a>
-                <a href="https://github.com/user/app5" target="_blank" rel="noopener noreferrer" className="app-link">GitHub Repo</a>
+            {/* Application 5 */}
+            <div className="portfolio-item">
+              <img src="src/assets/Module-5-Screenshot.png" alt="Calendar Application" className="app-image" />
+              <div className="app-details">
+                <h3 className="app-title">Calendar Application</h3>
+                <p className="app-description">This is a simple calendar application that allows a user to save events for each hour of a typical working day (9am–5pm). This app runs in the browser and features dynamically updated HTML and CSS powered by jQuery.</p>
+                {/* Links to deployed application and GitHub repository */}
+                <div className="app-links">
+                  <a href="https://organicclick.github.io/Module-5-Challenge-Luper/" target="_blank" rel="noopener noreferrer" className="app-link">Visit App</a>
+                  <a href="https://github.com/OrganicClick/Module-5-Challenge-Luper" target="_blank" rel="noopener noreferrer" className="app-link">GitHub Repo</a>
+                </div>
               </div>
             </div>
-          </div>
+
 
           {/* Application 6 */}
           <div className="portfolio-item">
