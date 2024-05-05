@@ -84,17 +84,18 @@ const Portfolio = () => {
 
           {/* Application 6 */}
           <div className="portfolio-item">
-            <img src="/path/to/app6.png" alt="Application 6" className="app-image" />
+            <img src="src/assets/Project-1-Screenshot.png" alt="Movie Trailers and Reviews Application" className="app-image" />
             <div className="app-details">
-              <h3 className="app-title">Application 6</h3>
-              <p className="app-description">Description of Application 6</p>
+              <h3 className="app-title">Movie Trailers and Reviews Application</h3>
+              <p className="app-description">Web application which provides reviews and a description, along with a trailer of a movie. Users can search for any movie they are interested in and will be provided with reviews, a description, and a cinematic trailer. I am one of the contributors to this application.</p>
               {/* Links to deployed application and GitHub repository */}
               <div className="app-links">
-                <a href="https://example.com/app6" target="_blank" rel="noopener noreferrer" className="app-link">Visit App</a>
-                <a href="https://github.com/user/app6" target="_blank" rel="noopener noreferrer" className="app-link">GitHub Repo</a>
+                <a href="https://yaserhdev.github.io/movie-trailers-and-reviews/" target="_blank" rel="noopener noreferrer" className="app-link">Visit App</a>
+                <a href="https://github.com/yaserhdev/movie-trailers-and-reviews" target="_blank" rel="noopener noreferrer" className="app-link">GitHub Repo</a>
               </div>
             </div>
           </div>
+
 
         </div>
       </section>
