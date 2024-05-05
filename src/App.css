@@ -71,13 +71,37 @@ body {
   position: fixed;
   bottom: 0;
   width: 100%;
-  background-color: #023C40; /* Footer background color */
-  color: #F5F3F5; /* Footer text color */
-  padding: 10px; /* Example padding */
-  text-align: center; /* Center the content horizontally */
+  background-color: #023C40;
+  color: #F5F3F5;
+  padding: 10px;
+  text-align: center;
+  display: flex; /* Use flexbox for layout */
+  justify-content: center; /* Center the items horizontally */
 }
 
-/* Navbar styling */
+.footer nav ul {
+  list-style: none; /* Remove bullet points */
+  display: flex; /* Use flexbox for layout */
+}
+
+.footer nav ul li {
+  margin-right: 20px; /* Add margin-right to create space between links */
+}
+
+.footer nav ul li:last-child {
+  margin-right: 0; /* Remove margin-right for the last link */
+}
+
+.footer nav ul li a {
+  text-decoration: none;
+  color: #F5F3F5;
+}
+
+.footer nav ul li a:hover {
+  text-decoration: underline; /* Underline links on hover */
+}
+
+
 /* Navbar styling */
 .navbar {
   position: fixed;
