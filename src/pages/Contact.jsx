@@ -47,6 +47,7 @@ const Contact = () => {
     return (
         <div className='contact-container'>
             <h1 className='contact-title'>Contact</h1>
+            <p>Please fill out the form below to get in touch with me.</p> {/* User instruction */}
             <div className='contact-form'>
                 <form onSubmit={handleSubmit}>
                     <div className='form-group'>
