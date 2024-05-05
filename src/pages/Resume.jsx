@@ -6,7 +6,7 @@ const Resume = () => {
       {/* Resume Content */}
       <section>
         <h2>Resume</h2>
-        <p>Download my resume <a href="/path/to/resume.pdf" download>here</a>.</p>
+        <p>Download my resume <a href="/assets/Module-20-Resume.pdf" download>here</a>.</p>
         
         {/* List of Proficiencies */}
         <h3>Proficiencies</h3>
