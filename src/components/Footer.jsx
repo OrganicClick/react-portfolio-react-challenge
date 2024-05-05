@@ -4,7 +4,7 @@ const Footer = () => {
     return (
         <footer className="footer">
             <div className="container">
-                <p>&copy; 2024 Your Name</p>
+                <p>&copy; 2024 OrganicClick</p>
                 <nav>
                     <ul>
                         <li><a href="https://github.com/OrganicClick?tab=repositories">GitHub</a></li>

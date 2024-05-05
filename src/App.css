@@ -8,8 +8,8 @@
 /* Global styles */
 body {
   font-family: Arial, sans-serif;
-  background-color: #f8f8f8;
-  color: #333;
+  background-color: #F5F3F5; /* Background color */
+  color: #333; /* Text color */
 }
 
 .container {
@@ -19,32 +19,15 @@ body {
 }
 
 .header {
-  background-color: #333;
-  color: #fff;
+  background-color: #023C40; /* Header background color */
+  color: #333; /* Header text color */
   padding: 20px 0;
   text-align: center;
 }
 
-.navbar {
-  display: flex;
-  justify-content: space-around;
-  margin-bottom: 20px;
-}
-
-.navbar a {
-  text-decoration: none;
-  color: #333;
-  font-weight: bold;
-  transition: color 0.3s ease;
-}
-
-.navbar a:hover {
-  color: #666;
-}
-
 .footer {
-  background-color: #333;
-  color: #fff;
+  background-color: #023C40; /* Footer background color */
+  color: #F5F3F5; /* Footer text color */
   padding: 20px 0;
   text-align: center;
 }
@@ -73,8 +56,8 @@ body {
   position: fixed;
   bottom: 0;
   width: 100%;
-  background-color: #333; /* Example background color */
-  color: white; /* Example text color */
+  background-color: #023C40; /* Footer background color */
+  color: #F5F3F5; /* Footer text color */
   padding: 10px; /* Example padding */
   text-align: center; /* Center the content horizontally */
 }
@@ -84,8 +67,8 @@ body {
   position: fixed;
   top: 0;
   width: 100%;
-  background-color: #333; /* Example background color */
-  color: white; /* Example text color */
+  background-color: #023C40; /* Navbar background color */
+  color: #F5F3F5; /* Navbar text color */
   z-index: 1000; /* Ensure Navbar appears above other content */
 }
 
@@ -104,9 +87,9 @@ body {
   display: block;
   padding: 20px;
   text-decoration: none;
-  color: white;
+  color: #F5F3F5; /* Navbar text color */
 }
 
 .navbar li.active {
-  background-color: #555; /* Example active background color */
+  background-color: #4EA699; /* Active Navbar background color */
 }
