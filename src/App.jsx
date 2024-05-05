@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
-import PortfolioContainer from './components/PortfolioContainer';
+import PageContainer from './components/PageContainer';
 import './App.css';
 
 const App = () => {
   return (
     <div className="App">
-      <PortfolioContainer />
+      <PageContainer />
     </div>
   );
 };
