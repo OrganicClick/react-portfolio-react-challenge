@@ -172,3 +172,60 @@ body {
 .contact-form button:hover {
   background-color: #4EA699; /* Button hover background color */
 }
+
+/* Resume.jsx styling */
+.resume-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.resume-heading {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.resume-download {
+  font-size: 18px;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.resume-link {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.resume-link:hover {
+  text-decoration: underline;
+}
+
+.proficiencies-container {
+  margin-top: 40px;
+}
+
+.proficiencies-heading {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.proficiencies-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.proficiency-item {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #666;
+}
+
+.proficiency-item::before {
+  content: '•';
+  margin-right: 10px;
+  color: #007bff;
+}
