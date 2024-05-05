@@ -54,17 +54,18 @@ const Portfolio = () => {
 
           {/* Application 4 */}
           <div className="portfolio-item">
-            <img src="/path/to/app4.png" alt="Application 4" className="app-image" />
+            <img src="src/assets/Module-13-Screenshot.png" alt="E-commerce Platform Simulation" className="app-image" />
             <div className="app-details">
-              <h3 className="app-title">Application 4</h3>
-              <p className="app-description">Description of Application 4</p>
+              <h3 className="app-title">E-commerce Platform Simulation</h3>
+              <p className="app-description">The application is designed to simulate the functionality of an e-commerce platform by implementing models for products, categories, tags, and product tags.</p>
               {/* Links to deployed application and GitHub repository */}
               <div className="app-links">
-                <a href="https://example.com/app4" target="_blank" rel="noopener noreferrer" className="app-link">Visit App</a>
-                <a href="https://github.com/user/app4" target="_blank" rel="noopener noreferrer" className="app-link">GitHub Repo</a>
+                
+                <a href="https://github.com/OrganicClick/e-commerce-back-end-challenge" target="_blank" rel="noopener noreferrer" className="app-link">GitHub Repo</a>
               </div>
             </div>
           </div>
+
 
           {/* Application 5 */}
           <div className="portfolio-item">
