@@ -6,8 +6,11 @@ const Portfolio = () => {
     <div className="portfolio-container">
       {/* Portfolio Content */}
       <section className="portfolio-section">
-        {/* Titled images of developer's applications */}
+        {/* Centered Portfolio title */}
         <h2 className="portfolio-heading">Portfolio</h2>
+        {/* User instruction */}
+        <p className="scroll-instruction">Scroll down to see more applications</p>
+        {/* Titled images of developer's applications */}
         <div className="portfolio-grid">
           {/* Application 1 */}
           <div className="portfolio-item">
