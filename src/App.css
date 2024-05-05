@@ -112,3 +112,56 @@ body {
 .navbar li.active {
   background-color: #4EA699; /* Active Navbar background color */
 }
+
+/* Contact page styles */
+.contact-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 20px; /* Adjusted margin to move content higher up */
+}
+
+.contact-title {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.contact-form {
+  max-width: 500px; /* Adjust the max-width as needed */
+  width: 100%;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff; /* Background color for the form */
+}
+
+.contact-form label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.contact-form button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #023C40; /* Button background color */
+  color: #fff; /* Button text color */
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background-color: #4EA699; /* Button hover background color */
+}
