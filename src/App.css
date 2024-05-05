@@ -78,6 +78,7 @@ body {
 }
 
 /* Navbar styling */
+/* Navbar styling */
 .navbar {
   position: fixed;
   top: 0;
@@ -86,34 +87,40 @@ body {
   color: #F5F3F5; /* Navbar text color */
   z-index: 1000; /* Ensure Navbar appears above other content */
   display: flex; /* Use flexbox for layout */
-  justify-content: center; /* Align items horizontally to the center */
+  justify-content: space-between; /* Center the items horizontally with space around */
+  align-items: center; /* Align items vertically in the center */
+  padding: 0 20px; /* Add padding to create space around items */
 }
 
-.navbar ul {
+.navbar-left {
+  display: inline-block; /* Ensure inline display */
+}
+
+.navbar-center {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
   display: flex; /* Use flexbox for layout */
-  justify-content: center; /* Align items horizontally to the center */
+  justify-content: center; /* Center the items horizontally */
+  align-items: center; /* Align items vertically in the center */
 }
 
-.navbar li {
+.navbar-center li {
   margin-right: 20px; /* Add margin-right to create space between links */
 }
 
-.navbar li a {
+.navbar-center li a {
   display: block;
   padding: 20px;
   text-decoration: none;
   color: #F5F3F5; /* Navbar text color */
 }
 
-.navbar li.active {
+.navbar-center li.active {
   background-color: #4EA699; /* Active Navbar background color */
 }
 
-/* Contact page styles */
 /* Contact page styles */
 .contact-container {
   position: absolute; /* Position the container absolutely */
