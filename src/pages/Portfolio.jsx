@@ -22,7 +22,7 @@ const Portfolio = () => {
             </div>
           </div>
 
-                    {/* Application 2 */}
+          {/* Application 2 */}
           <div className="portfolio-item">
             <img src="src/assets/Module-11-Screenshot.png" alt="Note Taker Application" className="app-image" />
             <div className="app-details">
@@ -39,17 +39,18 @@ const Portfolio = () => {
 
           {/* Application 3 */}
           <div className="portfolio-item">
-            <img src="/path/to/app3.png" alt="Application 3" className="app-image" />
+            <img src="src/assets/Module-12-Screenshot.png" alt="Employee Tracker Application" className="app-image" />
             <div className="app-details">
-              <h3 className="app-title">Application 3</h3>
-              <p className="app-description">Description of Application 3</p>
+              <h3 className="app-title">Employee Tracker Application</h3>
+              <p className="app-description">The Employee Tracker allows users to manage a company's employee database by performing various operations such as viewing employees, roles, and departments, adding new employees, updating employee roles, and deleting employees.</p>
               {/* Links to deployed application and GitHub repository */}
               <div className="app-links">
-                <a href="https://example.com/app3" target="_blank" rel="noopener noreferrer" className="app-link">Visit App</a>
-                <a href="https://github.com/user/app3" target="_blank" rel="noopener noreferrer" className="app-link">GitHub Repo</a>
+                
+                <a href="https://github.com/OrganicClick/employee-tracker-sql-challenge" target="_blank" rel="noopener noreferrer" className="app-link">GitHub Repo</a>
               </div>
             </div>
           </div>
+
 
           {/* Application 4 */}
           <div className="portfolio-item">
