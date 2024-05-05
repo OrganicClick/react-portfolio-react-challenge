@@ -110,6 +110,7 @@ Development was assisted by the following resources:
  - Referenced my own gist for implementing regex for determining what is a valid email address (https://gist.github.com/OrganicClick/28d61520a28a6f26997e042445f4dd77)
  - Post referenced for creating a Contact form for a React application (https://medium.com/@thomasaugot/create-a-react-contact-form-with-email-js-cad2c8606f33)
  - Referenced Final Group Project, which I contributed to, for file architecture, hooks, functions, and styling used (https://github.com/yaserhdev/get-fit)
+ - Referenced for customizing server logic in vite config file (https://vitejs.dev/config/server-options)
 
 ## Contact
 To contact the owner of this repo, OrganicClick, please reach out via OrganicClick@exampleemail.com
