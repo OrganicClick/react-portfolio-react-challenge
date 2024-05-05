@@ -22,19 +22,20 @@ const Portfolio = () => {
             </div>
           </div>
 
-          {/* Application 2 */}
+                    {/* Application 2 */}
           <div className="portfolio-item">
-            <img src="/path/to/app2.png" alt="Application 2" className="app-image" />
+            <img src="src/assets/Module-11-Screenshot.png" alt="Note Taker Application" className="app-image" />
             <div className="app-details">
-              <h3 className="app-title">Application 2</h3>
-              <p className="app-description">Description of Application 2</p>
+              <h3 className="app-title">Note Taker Application</h3>
+              <p className="app-description">The Note Taker application is designed to help small business owners organize their thoughts and tasks by allowing them to write and save notes.</p>
               {/* Links to deployed application and GitHub repository */}
               <div className="app-links">
-                <a href="https://example.com/app2" target="_blank" rel="noopener noreferrer" className="app-link">Visit App</a>
-                <a href="https://github.com/user/app2" target="_blank" rel="noopener noreferrer" className="app-link">GitHub Repo</a>
+                <a href="https://express-js-note-taker-luper-b5a12dbdaca6.herokuapp.com/" target="_blank" rel="noopener noreferrer" className="app-link">Visit App</a>
+                <a href="https://github.com/OrganicClick/Express-js-Note-Taker-Challenge" target="_blank" rel="noopener noreferrer" className="app-link">GitHub Repo</a>
               </div>
             </div>
           </div>
+
 
           {/* Application 3 */}
           <div className="portfolio-item">
