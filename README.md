@@ -6,9 +6,9 @@
 - [Acceptance Criteria](#acceptance-criteria)
 - [Installation](#installation)
 - [Usage](#usage)
+- [Screenshot](#screenshot)
 - [Contributing](#contributing)
 - [License](#license)
-- [Link to Video Walkthrough](#link-to-video-walkthrough)
 - [Technologies Used](#technologies-used)
 - [Credits](#credits)
 - [Contact](#contact)
@@ -48,24 +48,8 @@ THEN I see a link to a downloadable resume and a list of the developer’s profi
 WHEN I view the footer
 THEN I am presented with text or icon links to the developer’s GitHub and LinkedIn profiles, and their profile on a third platform (Stack Overflow, Twitter) 
 
-## Installation
-
-1. Clone  the repo from GitHub by running:
-    -git clone git@github.com:OrganicClick/noSQL-social-network-api-challenge.git
-
-2. Navigate into the project directory by running:
-    -cd noSQL-social-network-api-challenge
-
-3. Create a .env file and add your MYSQL_USER, MYSQL_PASSWORD, and DB_NAME on a new line.
-
-4. Please consult the following documentation for installing MongoDB
-    -https://coding-boot-camp.github.io/full-stack/mongodb/how-to-install-mongodb
-
-5. Run `npm install` to install all dependencies.
-
-
-## Usage
-
+## Screenshot
+![Screenshot](src/assets/Module-20-Assignment-Screenshot.png)
 
 ## Contributing
 If you have suggestions or contributions to add, please follow the guidelines listed below. Pull requests will be reviewed in the order that they are received.
@@ -77,13 +61,6 @@ If you have suggestions or contributions to add, please follow the guidelines li
 
 ## License
 This challenge is provided under the MIT License. See the [LICENSE](LICENSE) file for details.
-
-
-## Link to Video Walkthrough
-
-Please click the following link to view a video walkthrough of how to use the application:
-
-[Link to Video Walkthrough] 
 
 
 ## Technologies Used
