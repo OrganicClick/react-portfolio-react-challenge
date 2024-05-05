@@ -114,13 +114,13 @@ body {
 }
 
 /* Contact page styles */
+/* Contact page styles */
 .contact-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  text-align: center;
-  margin-top: 20px; /* Adjusted margin to move content higher up */
+  position: absolute; /* Position the container absolutely */
+  top: 50%; /* Align the top of the container to the middle of the viewport */
+  left: 50%; /* Align the left edge of the container to the middle of the viewport */
+  transform: translate(-50%, -50%); /* Move the container up and to the left by 50% of its own width and height */
+  text-align: center; /* Center the content horizontally */
 }
 
 .contact-title {
