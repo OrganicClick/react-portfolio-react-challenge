@@ -4,7 +4,6 @@
 - [Description](#description)
 - [User Story](#user-story)
 - [Acceptance Criteria](#acceptance-criteria)
-- [Installation](#installation)
 - [Usage](#usage)
 - [Screenshot](#screenshot)
 - [Contributing](#contributing)
@@ -49,6 +48,11 @@ THEN I see a link to a downloadable resume and a list of the developer’s profi
 WHEN I view the footer
 THEN I am presented with text or icon links to the developer’s GitHub and LinkedIn profiles, and their profile on a third platform (Stack Overflow, Twitter) 
 
+## Usage
+In order to access my React portfolio, simply go to the Netlify deployment of the application, located here: https://organicclickreactportfolio.netlify.app/
+
+This link is also at the ## Netlify URL section of this README
+
 ## Screenshot
 ![Screenshot](src/assets/Module-20-Assignment-Screenshot.png)
 
@@ -62,7 +66,6 @@ If you have suggestions or contributions to add, please follow the guidelines li
 
 ## License
 This challenge is provided under the MIT License. See the [LICENSE](LICENSE) file for details.
-
 
 ## Technologies Used
 React
