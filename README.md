@@ -10,6 +10,7 @@
 - [Contributing](#contributing)
 - [License](#license)
 - [Technologies Used](#technologies-used)
+- [Netlify URL](#netlify-url)
 - [Credits](#credits)
 - [Contact](#contact)
 
@@ -71,6 +72,11 @@ CSS
 JavaScript
 
 Git/GitHub
+
+## Netlify URL
+
+Please click the following link to be taken to the Netlify deployment of this application:
+ - https://organicclickreactportfolio.netlify.app/
 
 ## Credits
 Development was assisted by the following resources:
